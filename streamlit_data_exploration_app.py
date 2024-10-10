@@ -129,13 +129,9 @@ st.header('Conclusion')
 st.write("""
 From the visualizations, we can gather important insights:
 
-1. **Distribution Insights**: The histograms provide a clear view of how each variable is distributed across the dataset. Skewed distributions or outliers can be quickly identified.
-   
-2. **Statistical Measures**: Central tendency measures like the mean and median allow us to understand the typical value for a variable, while the standard deviation indicates how much the data deviates from the average. These are important when deciding how to preprocess data for machine learning, as heavily skewed data may require transformations.
-   
-3. **Scatter Plot Analysis**: The scatter plot between area and price reveals trends in pricing. Larger houses generally cost more, but there may be areas where smaller houses command higher prices, indicating premium locations or features.
+The housing price dataset reveals several key insights about factors influencing property prices. Generally, properties with more square footage, higher numbers of bedrooms, bathrooms, and stories tend to be priced higher, indicating that size and amenities contribute significantly to market value. Moreover, external features such as access to a main road, presence of a guest room, air conditioning, and furnished status further increase the price, as they enhance convenience and livability. Properties with parking spaces and located in preferred areas are also valued higher.
 
-4. **Box Plot Insights**: The box plots help to compare price distributions across categorical variables like bedrooms, showing how different features influence pricing. Outliers in these plots might signify high-end or undervalued properties.
-   
-Overall, visualizing the data provides critical insights into the dataset's structure, aiding in data-driven decisions and further analysis.
+Interestingly, the presence of a basement and features like hot water heating do not seem as prevalent across the dataset, but their occurrence in combination with other premium features could also play a role in determining prices.
+
+In conclusion, the housing prices show a strong correlation with property size, number of rooms, amenities, and location features, providing useful insights for buyers and sellers looking to understand the real estate market.
 """)
